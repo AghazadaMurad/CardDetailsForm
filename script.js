@@ -104,7 +104,6 @@ function manageErrors(errors) {
   const $YYerrorText = document.querySelector("#YYerror");
   const $cvcErrorText = document.querySelector("#cvcError");
 
-
   keys.forEach(function (key) {
     const error = errors[key];
 
@@ -116,7 +115,6 @@ function manageErrors(errors) {
       $MMerrorText.textContent = errors.MM;
       $YYerrorText.textContent = errors.YY;
       $cvcErrorText.textContent = errors.CVC;
-      
     } else {
       $form[key].className = "";
     }
@@ -148,8 +146,11 @@ function writeTextCard() {
     }
   });
 
-  $cardNumberInput.addEventListener("keyup", function(e){
-    e.target.value = e.target.value.replace(/[\s]/g, "").replace(/(.{4})/g, "$1 ").trim()
+  $cardNumberInput.addEventListener("keyup", function (e) {
+    e.target.value = e.target.value
+      .replace(/[\s]/g, "")
+      .replace(/(.{4})/g, "$1 ")
+      .trim();
   });
 
   $cardMonthInput.addEventListener("input", () => {
@@ -181,6 +182,6 @@ writeTextCard();
 
 $form.onsubmit = validateForm;
 
-$buttonContinue.onclick = function() {
+$buttonContinue.onclick = function () {
   location.reload();
-}
+};

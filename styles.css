@@ -47,7 +47,7 @@ form span {
   height: 210px;
   border-radius: 0.4rem;
   color: var(--White);
-  box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.3);
 }
 
 .front {
@@ -135,7 +135,7 @@ form input {
 form input:focus {
   border: none;
   border: 1px solid hsl(278, 94%, 30%);
-  background-color:  rgb(232, 240, 254);
+  background-color: rgb(232, 240, 254);
 }
 
 ::placeholder {
@@ -232,11 +232,11 @@ form input:focus {
   display: none;
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
   main {
     gap: 0;
     justify-content: space-between;
-    background-size:  320px;
+    background-size: 320px;
   }
 
   .submitted-status {
@@ -256,7 +256,7 @@ form input:focus {
   }
 }
 
-@media(max-width: 890px) {
+@media (max-width: 890px) {
   main {
     margin: 2rem 0;
     margin-bottom: 3rem;
@@ -303,17 +303,17 @@ form input:focus {
   .date-inputs-container input {
     width: 50px;
   }
-  
+
   #YY {
     margin-left: 0.3rem;
   }
-  
+
   .cvc-container input {
     width: 220px;
   }
 }
 
-@media(max-width: 530px) {
+@media (max-width: 530px) {
   main {
     margin: 1rem 0;
     margin-bottom: 2.5rem;
@@ -340,20 +340,20 @@ form input:focus {
   .front img {
     width: 55px;
   }
-  
+
   .num-card {
     height: 1rem;
     font-size: 1.25rem;
     letter-spacing: 0.15rem;
     padding-top: 1.4rem;
   }
-  
+
   .front span {
     margin-top: 0.5rem;
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
   }
-  
+
   .front-card-date {
     margin-top: 1.65rem;
     margin-left: 14.5rem;
@@ -371,7 +371,7 @@ form input:focus {
     margin-top: 4.9rem;
     margin-left: 252px;
   }
-  
+
   form {
     width: 390px;
     margin-top: 130px;
@@ -388,13 +388,13 @@ form input:focus {
   .date-inputs-container input {
     width: 40px;
   }
-  
+
   .cvc-container input {
     width: 180px;
   }
 }
 
-@media(max-width: 410px) {
+@media (max-width: 410px) {
   .bg-mobile {
     height: 244px;
   }
@@ -407,7 +407,7 @@ form input:focus {
   .cards-container {
     margin-top: -244px;
   }
-  
+
   .card {
     width: 270px;
     height: 150px;
@@ -420,20 +420,20 @@ form input:focus {
   .front img {
     width: 50px;
   }
-  
+
   .num-card {
     height: 0.9rem;
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
     padding-top: 0.7rem;
   }
-  
+
   .front span {
     margin-top: 0.1rem;
     font-size: 0.7rem;
     letter-spacing: 0.1rem;
   }
-  
+
   .front-card-date {
     width: 4rem;
     margin-top: 1rem;
@@ -453,7 +453,7 @@ form input:focus {
     margin-left: 208px;
     font-size: 0.9rem;
   }
-  
+
   form {
     width: 300px;
     margin-top: 130px;
@@ -470,11 +470,11 @@ form input:focus {
   .date-inputs-container input {
     width: 32px;
   }
-  
+
   #YY {
     margin-left: 0.3rem;
   }
-  
+
   .cvc-container input {
     width: 110px;
   }
